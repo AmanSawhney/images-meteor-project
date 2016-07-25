@@ -17,8 +17,6 @@ Create a page that gives a list of images, displays these images with a title an
 
 > Note: you will need Meteor installed
 
-
-
 1. Clone the project
 2. Cd into the project
 3. run `meteor`
