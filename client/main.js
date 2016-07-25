@@ -5,7 +5,7 @@ import React from 'react';
 
 // Create a component
 const App = () => {
-  return(
+  return (
     <div>
       React App #2
     </div>
