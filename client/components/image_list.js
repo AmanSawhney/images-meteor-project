@@ -1,13 +1,16 @@
 //Create our image list component
 // Import React
 import React from 'react';
+import ImageDetail from './image_detail';
 
 
 // Create our component
 const ImageList = () => {
   return (
     <ul>
-      <li>Image Detail</li>
+      <li>
+        <ImageDetail />
+      </li>
     </ul>
   );
 };
