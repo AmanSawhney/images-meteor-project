@@ -7,9 +7,23 @@ Create a page that gives a list of images, displays these images with a title an
   <li>
     Need to figure out how to break this app into separate components and show multiple components on the screen at once
   </li>
-  <li> 
+  <li>
     Need a list of images to show
   </li>
   <li> Need to figure out how to produce one "image detail" for each image we have
   </li>
 </ul>
+
+## How to run the application
+
+>Note: you will need Meteor installed
+
+<ol>
+  <li>
+    Clone the project
+  </li>
+  <li>
+    Cd into the project
+  </li>
+  <li>
+    run `meteor`
