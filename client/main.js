@@ -8,7 +8,9 @@ import axios from 'axios'
 // Create a component
 class App extends Component {
   componentWillMount() {
-    console.log('App is about to render')
+    console.log('App is about to render');
+    axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
+      .then(response => console.log(response));
   }
   render() {
     return (
@@ -23,6 +25,5 @@ class App extends Component {
 // Render the component to the sceen
 Meteor.startup(() => {
   ReactDOM.render(<App />, document.querySelector('.container'));
-  axios.get('https://api.imgur.com/3/gallery/hot/viral/0')
-    .then(response => console.log(response));
+
 });
