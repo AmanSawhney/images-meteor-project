@@ -1,6 +1,9 @@
-# images-meteor-project
+# image-viewer-meteor
 
 This is an example project I am creating to learn how to use Meteor.
+
+## Demo
+https://image-viewer-meteor.herokuapp.com/
 
 ## Objectives
 
