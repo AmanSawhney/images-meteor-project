@@ -17,6 +17,7 @@ Create a page that gives a list of images, displays these images with a title an
 - Need to figure out how to produce one "image detail" for each image we have => Made an array with the map function that creates the image detail component
 - Need to figure out how to communicate important information from image list to image detail like the title => used the props function of passing in values
 - Images should not be hardcoded => Using imagur api images are pulled from the internet
+- Image details needs a description => Added that using props in React.js
 
 --------------------------------------------------------------------------------
 
@@ -25,7 +26,6 @@ Create a page that gives a list of images, displays these images with a title an
 --------------------------------------------------------------------------------
 
 - Users should be able to see a progress bar of upvotes and downvotes
-- Image details needs a description
 
 ## How to run the application
 
