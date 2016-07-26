@@ -13,7 +13,7 @@ const IMAGES = [
 // Create our component
 const ImageList = () => {
   const RenderedImages = IMAGES.map((image) => {
-    return <ImageDetail image={image} />
+    return <ImageDetail key={image.title} image={image} />
   });
 
   return (

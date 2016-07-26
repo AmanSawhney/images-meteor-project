@@ -8,9 +8,9 @@ const ImageDetail = (props) => {
         <img src={props.image.link} />
       </div>
       <div className="media-body">
-        <h1 className = "media-heading">
+        <h3 className = "media-heading">
           Title: {props.image.title}
-        </h1>
+        </h3>
       </div>
     </li>
   );
