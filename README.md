@@ -24,7 +24,8 @@ Create a page that gives a list of images, displays these images with a title an
 
 --------------------------------------------------------------------------------
 
-- Users should be able to vote on their favorite photograph
+- Users should be able to see a progress bar of upvotes and downvotes
+- Image details needs a description
 
 ## How to run the application
 
