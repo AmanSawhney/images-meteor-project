@@ -7,6 +7,9 @@ import ImageList from './components/image_list';
 import axios from 'axios'
 // Create a component
 class App extends Component {
+  componentWillMount() {
+    console.log('App is about to render')
+  }
   render() {
     return (
       <div>
