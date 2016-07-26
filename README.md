@@ -8,10 +8,23 @@ Create a page that gives a list of images, displays these images with a title an
 
 ## Challenges
 
+Completed
+
+--------------------------------------------------------------------------------
+
 - Need to figure out how to break this app into separate components and show multiple components on the screen at once => Created a folder of components and am rendering the components in main.js by nesting them into an 'App' component
 - Need a list of images to show => Created a static array of images and am using this [image](http://dummyimage.com/600x400) as a placeholder for now
 - Need to figure out how to produce one "image detail" for each image we have => Made an array with the map function that creates the image detail component
 - Need to figure out how to communicate important information from image list to image detail like the title => used the props function of passing in values
+
+--------------------------------------------------------------------------------
+
+Needs work
+
+--------------------------------------------------------------------------------
+
+- Images should not be hardcoded
+- Users should be able to vote on their favorite photograph
 
 ## How to run the application
 
