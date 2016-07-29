@@ -21,14 +21,7 @@ Create a page that gives a list of images, displays these images with a title an
 - Need to figure out how to communicate important information from image list to image detail like the title => used the props function of passing in values
 - Images should not be hardcoded => Using imagur api images are pulled from the internet
 - Image details needs a description => Added that using props in React.js
-
---------------------------------------------------------------------------------
-
-### Needs work
-
---------------------------------------------------------------------------------
-
-- Users should be able to see a progress bar of upvotes and downvotes
+- Users should be able to see a progress bar of upvotes and downvotes => Pulled the upvots and downVotes variables from the imgur API and built a progress bar with BootStrap
 
 ## How to run the application
 
